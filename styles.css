@@ -4,3 +4,46 @@ body {
     padding: 0px;
     box-sizing: border-box;
 }
+
+div {
+    margin: 10px;
+    border-style: solid none;
+    border-color: rgb(212, 212, 212);
+    padding: 10px;
+}
+
+.pic-recipe {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 10px inset;
+    border-color: brown;
+}
+
+.ingredients {
+    background-color: hsl(59, 100%, 91%);
+}
+
+.sub-ingredients {
+    margin-left: 20px;
+    border: dotted;
+    border-color: rgb(212, 212, 212);
+    border-width: 1px;
+    background-color: hsl(60, 70%, 95%);
+}
+
+.sub-ingredients.toppings {
+    font-style: italic;
+}
+
+.main-step {
+    font-weight: bold;
+    color: brown;
+}
+
+.button-home {
+    padding: 10px;
+    background-color: rgb(159, 116, 116);
+    font-weight: bold;
+}
+
